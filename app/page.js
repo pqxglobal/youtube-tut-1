@@ -1,7 +1,11 @@
+import Hero from './components/Hero';
+import Features from './components/Features'
+
 export default function Home() {
   return (
     <section>
-      <h1>Home</h1>
+      <Hero />
+      <Features />
     </section>
-  )
+  );
 }
