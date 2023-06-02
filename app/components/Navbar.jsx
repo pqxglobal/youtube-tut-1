@@ -51,13 +51,13 @@ const Navbar = () => {
             <Link href="/">Home</Link>
           </li>
           <li className="text-2xl text-black mb-4">
-            <Link href="/pricing">Pricing</Link>
+            <Link href="/">Pricing</Link>
           </li>
           <li className="text-2xl text-black mb-4">
-            <Link href="/contact">Contact</Link>
+            <Link href="/">Contact</Link>
           </li>
           <li className="text-2xl text-black mb-4">
-            <Link href="/portfolio">Portfolio</Link>
+            <Link href="/">Portfolio</Link>
           </li>
         </ul>
       </div>

@@ -9,27 +9,27 @@ const DesktopNavbar = () => {
           <li className="rounded-full bg-gray-700 p-3 flex-nowrap">
             <SlArrowUp className="text-2xl mx-auto cursor-pointer" />
           </li>
-          <Link href="/portfolio">
+          <Link href="/">
             <li className="hover:bg-white hover:text-black hover:p-2 hover:rounded-full ease-in-out duration-500 cursor-pointer">
               Portfolio
             </li>
           </Link>
-          <Link href="/pricing">
+          <Link href="/">
             <li className="hover:bg-white hover:text-black hover:p-2 hover:rounded-full ease-in-out duration-500 cursor-pointer">
               Pricing
             </li>
           </Link>
-          <Link href="/faq">
+          <Link href="/">
             <li className="hover:bg-white hover:text-black hover:p-2 hover:rounded-full ease-in-out duration-500 cursor-pointer">
               FAQ
             </li>
           </Link>
-          <Link href="/schedule">
+          <Link href="/">
             <li className="hover:bg-white hover:text-black hover:p-2 hover:rounded-full ease-in-out duration-500 cursor-pointer">
               Book A Call
             </li>
           </Link>
-          <Link href="/login">
+          <Link href="/">
             <li className='bg-gray-700 rounded-full tracking-tight p-3'>
               Login
             </li>
