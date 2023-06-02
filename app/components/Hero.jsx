@@ -37,7 +37,7 @@ const Hero = () => {
           />{' '}
         </h2>
         <div className='items-center mx-auto justify-center text-center pt-16 z-20'>
-          <Link href="/pricing">
+          <Link href="/">
             <button className='bg-black text-white text-2xl px-10 py-5 rounded-lg shadow-xl shadow-black/40 hover:bg-black/70 cursor-pointer'>
               See plans
             </button>
