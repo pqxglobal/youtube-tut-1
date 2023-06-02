@@ -27,7 +27,7 @@ const features = [
 export default function Features() {
   return (
     <div className="w-full bg-[#ecf0f3] py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 mt-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 sm:mt-12 mt-44">
         <div className="mx-auto lg:mx-0 text-center">
           <h2 className="text-4xl font-bold tracking-tight text-black sm:text-4xl">
             Utilize the latest Tech Stacks from a professional team
