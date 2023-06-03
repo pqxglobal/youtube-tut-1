@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
-import { EffectCoverflow, Navigation } from 'swiper';
+import { Navigation } from 'swiper';
 import Image from 'next/image';
 import controls from '../../public/controls.png'
 import electrical from '../../public/Electrical.png'
@@ -20,14 +20,8 @@ const Carousel = () => {
         centeredSlides={true}
         slidesPerView={'auto'}
         loop={false}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-          slideShadows: true,
-        }}
-        modules={[EffectCoverflow, Navigation]}
+
+        modules={[Navigation]}
         className="w-[100%] py-[50px]"
       >
         <SwiperSlide>
