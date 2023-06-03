@@ -4,7 +4,8 @@ import Image from 'next/image';
 import blur from '../../public/blur.png';
 import Typed from 'react-typed';
 import Link from 'next/link';
-import Carousel from './Carousel';
+import Slider from './Slider';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 const Hero = () => {
   return (
@@ -62,7 +63,7 @@ const Hero = () => {
         </div>
       </div>
       <div>
-        <Carousel />
+        <Slider />
       </div>
     </div>
   );
