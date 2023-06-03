@@ -15,7 +15,7 @@ const Carousel = () => {
     <div className="sm:w-[45%] 2xl:w-[30%] w-[80%] h-[80%] mx-auto mt-20 text-center">
       <h1 className="font-bold text-2xl mb-8">Swipe to see some of our disciplines</h1>
       <Swiper
-        effect={'coverflow'}
+        
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={'auto'}
