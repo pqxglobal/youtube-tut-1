@@ -6,20 +6,20 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/navigation';
 import { EffectCoverflow, Navigation } from 'swiper';
 import Image from 'next/image';
-import junk from '../../public/junkRemoval.jpg';
-import appliance from '../../public/AppliancePlugImg.jpg';
-import netflix from '../../public/NetflixImg.jpg';
+import controls from '../../public/controls.png'
+import electrical from '../../public/Electrical.png'
+import instrumentation from '../../public/Instrumentation.png'
 
 const Carousel = () => {
   return (
     <div className="sm:w-[45%] 2xl:w-[30%] w-[80%] h-[80%] mx-auto mt-20 text-center">
-      <h1 className="font-bold text-2xl mb-8">Some of our Work</h1>
+      <h1 className="font-bold text-2xl mb-8">Swipe to see some of our disciplines</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
         slidesPerView={'auto'}
-        loop={true}
+        loop={false}
         coverflowEffect={{
           rotate: 0,
           stretch: 0,
@@ -31,35 +31,35 @@ const Carousel = () => {
         className="w-[100%] py-[50px]"
       >
         <SwiperSlide>
-          <div className="bg-black/60 absolute w-full h-[30%] bottom-0" />
+          {/* <div className="bg-black/60 absolute w-full h-[30%] bottom-0" />
           <h1 className="absolute text-white font-bold sm:text-3xl sm:bottom-10 bottom-2 left-10">
-            Junk Removal Company
-          </h1>
+            Instrumentation
+          </h1> */}
           <Image
-            src={junk}
-            alt="junk"
+            src={instrumentation}
+            alt="instrumentation"
             className="block w-[100%]"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-black/60 absolute w-full h-[30%] bottom-0" />
+          {/* <div className="bg-black/60 absolute w-full h-[30%] bottom-0" />
           <h1 className="absolute text-white font-bold sm:text-3xl sm:bottom-10 bottom-2 left-10">
-            Appliance Store
-          </h1>
+            Electrical
+          </h1> */}
           <Image
-            src={appliance}
-            alt="junk"
+            src={electrical}
+            alt="electrical"
             className="block w-[100%]"
           />
         </SwiperSlide>
         <SwiperSlide>
-          <div className="bg-black/60 absolute w-full h-[30%] bottom-0" />
+          {/* <div className="bg-black/60 absolute w-full h-[30%] bottom-0" />
           <h1 className="absolute text-white font-bold sm:text-3xl sm:bottom-10 bottom-2 left-10">
-            Netflix Clone
-          </h1>
+            Controls
+          </h1> */}
           <Image
-            src={netflix}
-            alt="junk"
+            src={controls}
+            alt="controls"
             className="block w-[100%]"
           />
         </SwiperSlide>

@@ -20,31 +20,45 @@ const Hero = () => {
       />
       {/* Main Text */}
       <div className="flex flex-col text-center mx-auto max-w-[1260px] items-center justify-center pt-48">
+        <h1 className="text-5xl sm:text-8xl font-bold tracking-tight z-20">PQX Global</h1>
         <h1 className="text-5xl sm:text-8xl font-bold tracking-tight z-20">
-          A software{' '}
-          <span className="bg-gradient-to-r from-[#ff781f] to-[#ffaf7a] text-transparent bg-clip-text">
-            agency
+          <span className="bg-gradient-to-r from-[#105271] to-[#66bc45] text-transparent bg-clip-text">
+            engineering
           </span>
         </h1>
         <h1 className="text-5xl sm:text-8xl font-bold z-20">with a twist</h1>
         <h2 className="text-2xl sm:text-4xl mt-4">
-          specializing in{' '}
+          {' '}
           <Typed
-            strings={['web development', 'mobile development', 'UI/UX design', 'branding']}
-            typeSpeed={200}
-            backSpeed={100}
+            strings={[
+              'Web Applications',
+              'Mobile Applications',
+              'Desktop Applications',
+              'UI/UX Design',
+              'Databases',
+              'Industrial Automation',
+              'Instrumentation',
+              'Electrical Systems',
+              'IT/OT/ET',
+              'MQTT',
+              'IIoT',
+              'OPC',
+              'MES',
+              'ERP',
+              'MRP',
+            ]}
+            typeSpeed={50}
+            backSpeed={50}
             loop
           />{' '}
         </h2>
-        <div className='items-center mx-auto justify-center text-center pt-16 z-20'>
+        <div className="items-center mx-auto justify-center text-center pt-16 z-20">
           <Link href="/">
-            <button className='bg-black text-white text-2xl px-10 py-5 rounded-lg shadow-xl shadow-black/40 hover:bg-black/70 cursor-pointer'>
+            <button className="bg-[#105271] text-white text-2xl px-10 py-5 rounded-lg shadow-xl shadow-black/40 hover:bg-[#66bc45]/70 hover:text-black cursor-pointer">
               See plans
             </button>
           </Link>
-          <p className='pt-6 font-bold text-lg'>
-            Subscriptions based model with no hidden fees. Unlimited requests
-          </p>
+          <p className="pt-6 font-bold text-lg">Technical applications for industrial companies</p>
         </div>
       </div>
       <div>

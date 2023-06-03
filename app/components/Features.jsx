@@ -1,41 +1,42 @@
-import { AiFillHeart, AiFillCheckCircle, AiFillControl } from 'react-icons/ai';
+import { AiFillControl } from 'react-icons/ai';
+import { MdElectricBolt } from 'react-icons/md';
+import { LuGauge } from 'react-icons/lu';
 
 const features = [
   {
-    name: 'Unlimited inboxes',
+    name: 'Controls',
     description:
       'Non quo aperiam repellendus quas est est. Eos aut dolore aut ut sit nesciunt. Ex tempora quia. Sit nobis consequatur dolores incidunt.',
     href: '#',
-    icon: AiFillHeart,
+    icon: AiFillControl,
   },
   {
-    name: 'Manage team members',
+    name: 'Instrumentation',
     description:
       'Vero eum voluptatem aliquid nostrum voluptatem. Vitae esse natus. Earum nihil deserunt eos quasi cupiditate. A inventore et molestiae natus.',
     href: '#',
-    icon: AiFillCheckCircle,
+    icon: LuGauge,
   },
   {
-    name: 'Spam report',
+    name: 'Electrical',
     description:
       'Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.',
     href: '#',
-    icon: AiFillControl,
+    icon: MdElectricBolt,
   },
 ];
 
 export default function Features() {
   return (
     <div className="w-full bg-[#ecf0f3] py-24 sm:py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8 sm:mt-12 mt-44">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8 sm:mt-48 mt-60 sm:mb-16">
         <div className="mx-auto lg:mx-0 text-center">
           <h2 className="text-4xl font-bold tracking-tight text-black sm:text-4xl">
             Utilize the latest Tech Stacks from a professional team
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Let us design, build and develop your next project. Whether that is your company's
-            website, a highly converting landing page, a SaaS application or a mobile app. We've got
-            you covered.
+            Let us design, build and develop your Next project. Whether that is your company's
+            website, a highly converting landing page, a SaaS application, a mobile or desktop app. We've got you covered.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

@@ -16,12 +16,12 @@ const Navbar = () => {
   return (
     <nav className="w-full fixed z-[100] bg-[#ecf0f3] shadow-xl h-20">
       <div className="flex items-center sm:justify-center justify-between h-full w-full">
-        <Link href="/">
+        <Link href="https://www.pqxglobal.com">
           <Image
             src={logo}
             alt="logo"
-            width="305"
-            height="305"
+            width="60"
+            height="60"
             priority
           />
         </Link>
