@@ -1,3 +1,5 @@
+'use client'
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import controls from '../../public/controls.png';
@@ -16,7 +18,6 @@ export default () => {
         <Swiper
           spaceBetween={10}
           slidesPerView={1}
-          onSlideChange={() => console.log('slide change')}
           onSwiper={swiper => console.log(swiper)}
         >
           <SwiperSlide>
