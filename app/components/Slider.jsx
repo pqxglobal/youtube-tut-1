@@ -2,6 +2,8 @@
 
 import Image from 'next/image';
 import { Carousel } from 'react-responsive-carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
+
 import controls from '../../public/controls.png'
 import electrical from '../../public/Electrical.png'
 import instrumentation from '../../public/Instrumentation.png'
